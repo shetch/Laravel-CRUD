@@ -21,7 +21,6 @@
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0" method="GET" action="/search">
-                @csrf
                 <input class="form-control mr-sm-2" type="text" name="keywords" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
